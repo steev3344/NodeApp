@@ -6,7 +6,7 @@ const cors = require('cors')
 require("dotenv").config();
 
 
-mongoose.connect("mongodb://localhost:27017/tapau", {
+mongoose.connect('mongodb+srv://admin:admin@cluster0.n4lyk.mongodb.net/PRODUCT?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useCreateIndex: true,
   useUnifiedTopology: true,
